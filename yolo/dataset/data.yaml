@@ -1,0 +1,13 @@
+path: D:\beam_analysis\yolo\dataset
+train: images\train
+val: images\val
+
+nc: 6
+
+names:
+  0: beam
+  1: fixed_support
+  2: pinned_support
+  3: roller_support
+  4: point_load
+  5: distributed_load

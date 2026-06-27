@@ -1,0 +1,32 @@
+# Training outputs
+runs/
+yolo/dataset/images/
+yolo/dataset/labels/
+yolo/dataset/*.cache
+
+# Generated results
+static/results/
+static/uploads/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Models (too large, users train their own)
+best.pt
+best.onnx
+yolo11n.pt
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.log
+*.tmp
